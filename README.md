@@ -2,7 +2,6 @@
 
 
 ## 学習手順
-（ファイル名などは適宜変更してください）
 
 1. wakachi.pyでスクレイピングしてデータセットを作成(Dataset_all_catogories_from_SportsNavi_ftformat.txt)
 
@@ -36,21 +35,3 @@ N  3000
 P@1  0.124
 R@1  0.0541
 Number of examples: 3000
-
-fastText 
-
-#### 参照ページ
-[fastText tutorial](https://fasttext.cc/docs/en/supervised-tutorial.html)  
-
-上のリンクのページにあるコマンドおよびパラメータを理解します。
-
-例：
-```bash
--lr 0.5 -epoch 25 -wordNgrams 2 -bucket 200000 -dim 50 -loss one-vs-all
-``
-
-それぞれ参照ページを参考にどのような意味なのか理解します。
-
-
-
-# sports_navi_classification
